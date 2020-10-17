@@ -58,6 +58,8 @@
   #include "board_definitions/board_definitions_arduino_m0.h"
 #elif defined(BOARD_ID_arduino_m0_pro)
   #include "board_definitions/board_definitions_arduino_m0_pro.h"
+#elif defined(BOARD_ID_Sparkfun_LilyMini)
+  #include "board_definitions/board_definitions_Sparkfun_LilyMini.h"
 #else
   #error You must define a BOARD_ID and add the corresponding definitions in board_definitions.h
 #endif
